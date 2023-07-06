@@ -1,0 +1,29 @@
+.section {
+    max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem;
+    z-index: 44;
+  }
+
+.title {
+    font-family: var(--font-mono);
+    margin-bottom: 3rem;
+    font-size: 66px;
+    z-index: 55;
+    color: white;
+  }
+
+.image {
+  position: relative;
+    border-radius: 3rem;
+    margin-top: 5rem;
+}
+
+.tooltip {
+  position: absolute;
+  margin-top: 350px;
+  z-index: 66;
+}

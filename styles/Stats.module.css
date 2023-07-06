@@ -1,0 +1,35 @@
+.section {
+    max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem;
+    z-index: 44;
+    margin-top: 5rem;
+  }
+
+.title {
+    font-family: var(--font-mono);
+    margin-bottom: 3rem;
+    font-size: 66px;
+    z-index: 55;
+    color: white;
+    
+  }
+
+  .imageCallout {
+    width: 100%;
+    height: auto;
+    max-width: 1700px;
+    position: relative;
+    text-align: center;
+    margin-left: -10%;
+    margin-top: 5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .imageCallout {
+    scale: 1.3;
+  }
+}
