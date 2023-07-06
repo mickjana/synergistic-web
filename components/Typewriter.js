@@ -26,7 +26,7 @@ const TypeWriterText = () => {
     .typeString('<span>It lives its artificial life on Ethereum blockchain.</span>')
     .pauseFor(2000)
     .deleteAll()
-    .typeString('<span>You can visit OpenSea marketplace to mint and view our NFTs.</span>')
+    .typeString('<span>You can visit OpenSea marketplace to mint and view your NFTs.</span>')
     .pauseFor(2000)
     .start()
 

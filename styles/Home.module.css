@@ -270,7 +270,7 @@
   font-family: var(--font-mono);
   margin-top: 6rem;
   margin-bottom: 3rem;
-  z-index: 55;
+  z-index: 99999;
   font-size: 66px;
 }
 
@@ -285,7 +285,7 @@
   max-width: 1200px;
   margin-top: 25px;
   text-align: center;
-  z-index: 55;
+  z-index: 99999;
 }
 
 .spacer {
@@ -296,7 +296,7 @@
 .creator {
   max-width: 1200px;
   font-family: var(--font-mono);
-  z-index: 55;
+  z-index: 99999;
 }
 
 .creatorImage {

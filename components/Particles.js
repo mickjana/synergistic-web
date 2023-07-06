@@ -2,6 +2,7 @@ import React from 'react';
 import {useCallback} from 'react';
 import Particles from 'react-tsparticles';
 import {loadFull} from 'tsparticles';
+import styles from '@/styles/Typewriter.module.css'
 
 const Background = () => {
   const particlesInit = useCallback (async engine => {
@@ -12,7 +13,7 @@ const Background = () => {
     await console.log (container);
   }, []);
   return (
-    <div>
+    <div className={styles.background}>
       <Particles
         id="tsparticles"
         init={particlesInit}
