@@ -115,7 +115,7 @@ export default function Home() {
               className={styles.imageCity}
               src="/SynCity.png"
               alt="Synergistic City"
-              width={2000}
+              width={1700}
               height={600}
               priority
             />
