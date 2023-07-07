@@ -20,7 +20,7 @@ const TypeWriterText = () => {
     .typeString('<span>With total of 369 items costing 0.0369 ETH per NFT.</span>')
     .pauseFor(2000)
     .deleteAll()
-    .typeString('<span>This collection falls into following Categories: 3D, AI, PFPS.</span>')
+    .typeString('<span>This collection falls into following categories: 3D, AI, PFPS.</span>')
     .pauseFor(2000)
     .deleteAll()
     .typeString('<span>It lives its artificial life on Ethereum blockchain.</span>')

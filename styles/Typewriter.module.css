@@ -1,6 +1,6 @@
 .text {
     font-family: var(--font-mono);
-    max-width: 580px;
+    max-width: 600px;
     width: 100%;
     font-size: 40px;
     font-weight: 600;
@@ -13,9 +13,10 @@
 
 @media only screen and (max-width: 1023px) {
     .text{ 
+        font-weight: 500;
         max-width: 250px;
         font-size: 20px;
-        margin-top: 300px;
+        margin-top: 280px;
         margin-left: 11%;
     }
 }
@@ -23,8 +24,9 @@
 @media only screen and (min-width: 1025) and (max-width: 1123px) {
     .text{ 
         max-width: 250px;
+        font-weight: 600;
         font-size: 44px;
-        margin-top: 215px;
+        margin-top: 200px;
         margin-left: 11%;
     }
 }
