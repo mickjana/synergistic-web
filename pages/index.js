@@ -216,13 +216,24 @@ export default function Home() {
         <div className={styles.spacer}></div>
         <div className={styles.tag}>
       Powered by AI and digital love. Created by Mick Jana, all rights reserved 2023. <br/>
-      <a href="https://raritysniper.com/nft-drops-calendar"> Verified by Rarity Sniper
+      <a href="https://raritysniper.com/nft-drops-calendar"> Verified by Rarity Sniper 
       <Image
                 src="/rarityLogo1.png"
                 alt="Rarity Sniper Logo"
                 href="https://raritysniper.com/nft-drops-calendar"
                 className={styles.rarityLogo}
                 width={50}
+                height={50}
+                priority
+              />
+              </a>
+              <a href="https://nftdesignawards.io/"> | Supporting NFT Design Awards
+      <Image
+                src="/NDA.png"
+                alt="NFT Design Awards"
+                href="https://nftdesignawards.io/"
+                className={styles.rarityLogo}
+                width={100}
                 height={50}
                 priority
               />
