@@ -135,6 +135,7 @@ export default function Home() {
             <h2>Mick Jana</h2>
             <p>
             Mick is an electronic music producer, graphic designer, digital content creator and programmer. 
+            Actively supporting NFT community, judging for <a href="https://nftdesignawards.io/" target="blank">NFT Design Awards </a> and more!
             An enthusiast of anything electronic and digital nomad. Hailing from Manchester UK, he settled to soak in the music scene, visual aspects and culture of a vibrant city. 
             Which helped and inspired him to create interesting music, original graphics and one of art pieces.
             </p>

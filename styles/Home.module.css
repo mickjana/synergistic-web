@@ -299,6 +299,10 @@
   z-index: 99999;
 }
 
+.creator a {
+  color: rgb(187, 42, 127);
+}
+
 .creatorImage {
   position: relative;
   float:left;
